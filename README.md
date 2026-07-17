@@ -23,13 +23,18 @@ The goal of this project is to evaluate the DrugCLIP program on _Escherichia col
 ### Preprocessing 
 
 DrugCLIP env :
+
 - **program_generate_files.sh :** generates folders of each PDB complex given a CSV of PDB complexes
 - **program_conversion_PDB_smiles.sh :** extracts SMILES sequences from PDB
 - **clean_smiles_files.sh :** cleans the SMILES sequences extracted from PDB
+
 DeepCoy env:
+
 - **program_prepare_data_DeepCoy.sh :** preprocessing for DeepCoy
 - **program_generate_decoys.sh :** generates decoys given actives
+
 DrugCLIP env:
+
 - **program_conversion_actives_mol.sh :** converts actives files into mol.2 files
 - **program_conversion_decoys_mol.sh :** converts decoys files into mol.2 files
 - **script_clean_decoys.sh :** clean decoys files
