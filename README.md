@@ -49,7 +49,7 @@ DrugCLIP env:
 - **test_drugclip_fold.sh :** Test DrugCLIP on your own data, runs a 6 fold experiment
 - **test_embedding.sh :** Test DrugCLIP on your own data, extracts the embeddings and creates a UMAP.
 
-### Other scripts
+### Other bash
 
 - **clean_actives_names:** clean the names of actives
 - **drugclip.sh :** program of DrugCLIP
