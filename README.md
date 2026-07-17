@@ -18,9 +18,9 @@ The goal of this project is to evaluate the DrugCLIP program on _Escherichia col
 
 ## 📁 Repository Structure
 
-# Bash
+## Bash
 
-## Preprocessing from a CSV containing PDBs
+### Preprocessing from a CSV containing PDBs
 
 DrugCLIP env :
 - **program_generate_files.sh :** generates folders of each PDB complex given a CSV of PDB complexes
@@ -38,13 +38,13 @@ DrugCLIP env:
 - **script_numerote_atoms.sh :** renumbers atoms of crystal_ligands files after removing water
 - **program_write_dude_multi.sh :** preprocessing for DrugCLIP
 
-## Run DrugCLIP
+### Run DrugCLIP
 
 - **test_drugclip.sh :** Test DrugCLIP, specify the weights and the base folder for data (For DUD-E for example)
 - **test_drugclip_fold.sh :** Test DrugCLIP on your own data, runs a 6 fold experiment
 - **test_embedding.sh :** Test DrugCLIP on your own data, extracts the embeddings and creates a UMAP.
 
-## Other scripts
+### Other scripts
 
 - **clean_actives_names:** clean the names of actives
 - **drugclip.sh :** program of DrugCLIP
@@ -61,7 +61,7 @@ DrugCLIP env:
 - **script_create_mols_alphafold.sh :** create mols.lmdb for the alphafold dataset
 - **script_read_lmdb.sh :** script to analyse lmdb files
 
-# Scripts
+## Scripts
 This file contains the scripts used by the bash files. Gather them in the same file for easier use.
 
 ---
