@@ -75,4 +75,5 @@ This file contains the scripts used by the bash files. Gather them in the same f
 
 - **DrugCLIP :** https://github.com/THU-ATOM/Drug-The-Whole-Genome/
 - **DeepCoy :** https://github.com/fimrie/DeepCoy/
+
 Both githubs required the installation of a dedicated environment in order to run the programs. Most programs can be run with the DrugCLIP environment. However the decoy generation requires the DeepCoy environment
