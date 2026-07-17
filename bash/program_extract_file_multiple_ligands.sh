@@ -15,5 +15,6 @@ source /pasteur/helix/projects/Imod-moulin/Sixte/Drugclip/Drug-The-Whole-Genome/
 cd /pasteur/helix/projects/Imod-moulin/Sixte/Drugclip/Drug-The-Whole-Genome
 export PYTHONPATH=$PYTHONPATH:$(pwd)
 
-python programmeextraitfichiersplusieursligands.py
+python programme_extract_file_multiple_ligands.py
+
 
