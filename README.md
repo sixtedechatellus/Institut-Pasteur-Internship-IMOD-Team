@@ -20,7 +20,7 @@ The goal of this project is to evaluate the DrugCLIP program on _Escherichia col
 
 ## Bash
 
-### Preprocessing from a CSV containing PDBs
+### Preprocessing 
 
 DrugCLIP env :
 - **program_generate_files.sh :** generates folders of each PDB complex given a CSV of PDB complexes
